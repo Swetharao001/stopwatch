@@ -1,0 +1,67 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('bgimg.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#heading{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+#display{
+  display: flex;
+  font-size: 5rem;
+  font-family: 'Cormorant Garamond', serif;/*'Plus Jakarta Sans', sans-serif;*/
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(8, 6, 6);
+  margin-bottom: 20px;
+}
+
+#controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 8px;
+  min-width: 125px ;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+#startbtn{
+  background-color: green;
+}
+#startbtn:hover{
+  background-color: green;
+}
+
+#stopbtn{
+  background-color: red;
+}
+#stopbtn:hover{
+  background-color: red;
+}
+
+#resetbtn{
+  background-color: aqua;
+}
+#resetbtn:hover{
+  background-color: aqua;
+}
